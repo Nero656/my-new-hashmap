@@ -37,13 +37,13 @@ void main() {
                     validInput = true;
                 }
                 default -> {
-                    System.out.println("Неверная опция! Доступно: 1 или 2");
-                    System.out.println("Попробуйте снова...");
+                    System.out.println("Invalid option! Available: 1 or 2");
+                    System.out.println("Try again...");
                 }
             }
         } catch (NumberFormatException e) {
-            System.out.println("Ошибка! Введите число 1 или 2");
-            System.out.println("Попробуйте снова...");
+            System.out.println("Invalid option! Available: 1 or 2");
+            System.out.println("Try again...");
         }
 
 
