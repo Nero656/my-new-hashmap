@@ -23,7 +23,7 @@ void main() {
             int option = scanner.nextInt();
             scanner.nextLine();
 
-            System.out.print("введите ключ: ");
+            System.out.print("input key: ");
             String key = scanner.nextLine();
 
             switch (option) {
